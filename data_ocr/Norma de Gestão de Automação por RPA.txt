@@ -1,0 +1,763 @@
+NORMA
+#SSTÊMICA
+Norma de Gestão de
+Automação por RPA
+Área: Processos e Qualidade
+Assunto: RPA
+Abrangência: Processos
+*Sicredi
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+SUMÁRIO
+Formatado: Fonte: Exo 2.0, 16 pt, Negrito
+Formatado: Fonte: Exo 2.0, 16 pt, Negrito
+DefiniçõesDefiniç
+2.1. Classificações para ferramentas de RPA
+02
+1523
+01
+ObjetivoObje
+03
+2.1. Classificações para ferramentas de RPA
+Regras
+3.1.A automacão de processos através da utilização de RPA3.1. A
+automação de processos através da utilização de RPA
+3.2. Modelos de Governanca de RPA
+3.2. Modelos de Governança de RPA
+3.3. Centro de Excelência RPA3.3. Centro de Excelência RPA
+3.4. Time RPA
+1.
+T
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Espaçamento entre linhas: Múltiplos 1,15
+lin.
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: À esquerda, Espaçamento entre linhas:
+Múltiplos 1,15 lin.
+Formatado: Fonte: Exo 2.0, 16 pt, Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Espaçamento entre linhas: Múltiplos 1,15
+lin.
+Formatado: Fonte: Não Negrito
+Formatado: Espaçamento entre linhas: Múltiplos 1,15
+lin.
+Formatado: Fonte: Não Negrito
+04
+05
+ResponsabilidadesResponsabilidad
+4.1. Sistema Sicredi4.1. Sistema Sicredi
+4.2. CAS e Central
+4.2. CAS e Central
+4.3. CAS
+4.3. CAS
+4.5. Central
+Base RegulatóriaBase
+06
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito
+Formatado: Fonte: Não Negrito, Cor da fonte:
+Automática
+Formatado: Fonte: Não Negrito
+Formatado: Espaçamento entre linhas: Múltiplos 1,15
+lin.
+Formatado: Fonte: Não Negrito
+Formatado: À esquerda, Espaçamento entre linhas:
+Vigência e Histórico de
+Múltiplos 1,15 lin.
+Formatado: Fonte: Não Negrito
+Formatado: À esquerda, Espaçamento entre linhas:
+Múltiplos 1,15 lin.
+Formatado: Fonte: Exo 2.0, 16 pt, Negrito
+Formatado: Fonte: Não Negrito
+Formatado
+Formatado: Fonte: Exo 2.0, 16 pt, Negrito
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+1. Objetivo
+Esta Norma estabelece as regras, papéis e responsabilidades referentes à Automação
+Robótica de Processos (RPA), para todas as entidades do Sicredi.
+000
+||||
+2. Definições
+Automação Rastreável - Automação executado via assistente eletrônico ou de forma
+não assistida por humanos, para que as informações de execução (hostname, usuário,
+horários de execução, informações de log) fiquem registradas na ferramenta de
+gestão de automações corporativas;
+Acesso Direto
+-
+Acesso aos bancos de dados corporativos sob domínio e
+responsabilidade do CAS, ou seja, conectar diretamente no banco de dados através de
+um aplicativo cliente, sem utilização de um sistema corporativo;
+Cofre de Senhas - Solução utilizada para armazenamento de senhas de forma segura;
+Captcha
+-
+Mecanismo utilizado para evitar spams ou mensagens disparadas por
+outros computadores ou robôs, permitindo que somente seres humanos possam
+realizar determinada consulta ou enviar informações;
+Computadores Dedicados Computadores exclusivos para desenvolvimento,
+homologação e execução de processos automatizados através do RPA;
+-
+Continuidade de Negócios É o planejamento preventivo e alternativo da
+organização para atuação durante um evento que afete as atividades normais da
+empresa;
+Ferramenta Corporativa de Cadastro de Ideias e Inventário de Automações
+Ferramenta para cadastro, compartilhamento e gerenciamento das ideias e
+automações do Sistema Sicredi;
+Hosts - Qualquer computador ou dispositivo conectado a uma rede;
+Drivers Odbc/Jdbc
+-
+Padrão para acesso a sistemas gerenciadores de bancos de
+dados (SGBD). Software ou interface que permite a conexão a um banco de dados;
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+A
+Tenant - Representa um grupo de usuário que compartilha o acesso com privilégios
+específicos para uma instância de um sistema;
+RPA
+-
+Robotic Process Automation (RPA) que significa automação robótica de
+processos, ou seja, automação de processos através de tecnologias que simulam
+Ferramenta de RPA - São consideradas ferramentas de RPA as soluções tecnológicas
+que simulam atividades humanas em computador, através da manipulação em
+sistemas, dados de entrada e saída do computador;
+API - Application Programming Interface que significa Interface de Programação de
+Aplicação;
+Processo
+-
+Conjunto de ações para atingir determinado objetivo, possuindo os
+seguintes elementos: variável de entrada, processamento/transformação e variável
+de saída;
+Robô No processo de automação com RPA, o robô opera como um colaborador
+virtual de alta eficiência, capaz de trabalhar 24h por dia. Por se tratar um colaborador,
+deve ter seu próprio usuário, impessoal RPA, para acessar sistemas e recursos da
+organização. Além disso, é necessário ensiná-lo e ter suas ações monitoradas. Em
+alguns casos, precisa de um computador dedicado para que possa exercer sua função;
+Robô Atendido Os robôs atendidos são utilizados para complemento de uma
+atividade do colaborador, necessitando de intervenção ou supervisão humana durante
+sua execução. A execução de processos neste tipo de robô ocorre de maneira manual,
+onde um operador dispara a execução do processo e precisa garantir que a finalização
+tenha ocorrido de forma satisfatória;
+-
+Robô Não-Atendido - Os robôs não-atendidos são capazes de realizar as atividades
+sem supervisão humana e tem como principal executar operações através de
+acionamentos de eventos ou trabalhar em tarefas de forma agendada. Este tipo de
+robô pode ter monitoramento remoto, onde não é necessário que um operador acesse
+localmente o computador onde o robô está sendo executado, mas pode acompanhar
+se as atividades atribuídas a este robô estão sendo executadas.
+A tecnologia RPA (Robotic Process Automation) permite a automação de tarefas rotineiras
+através de robôs de software. Eles executam processo de negócios baseados em regras,
+interagindo com sistemas e aplicativos como um humano, visando otimizar processos e
+reduzir a carga de trabalho.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+2.1. Classificações para ferramentas de RPA
+a) RPA Corporativo: Consiste na automação de processos por meio da utilização de
+tecnologia específica de RPA, homologada e selecionada de forma corporativa, que
+tenha sido avaliada, testada e aprovada de forma centralizada pelo CAS e Centrais',
+amparado pela estrutura de Governança Corporativa.
+b) RPA Não Corporativo: Consiste na automação de processos por meio da utilização de
+plataformas, softwares, linguagens de programação e/ou tecnologias diferentes da
+solução corporativa selecionada para desenvolvimento de RPA, os quais não estão
+amparadas pela Governança Corporativa de RPA.
+2.2. Tipos de Robôs de RPA
+Os robôs podem ser classificados em três tipos de acordo com suas características:
+atendido, não-atendido e assistente pessoal. Conforme o quadro abaixo:
+Tipo de
+Robô
+Atendido
+Não
+Atendido
+Modo de
+Operação
+Intervenção nas
+Automações
+Responsabilidades
+Operado por
+acesso remoto à
+máquina virtual
+Local pelo
+Operador
+Gestor da
+área ou da
+entidade
+ou computador
+físico de uso
+compartilhado
+Operado por
+orquestrador
+de robôs
+Sem
+Intervenção
+Gestor da
+área ou da
+entidade
+Assistente
+Pessoal
+Operado
+localmente em
+computador de
+uso pessoal
+Usuários:
+Atendido
+Usuário do
+Computador
+Pessoal ou
+Impessoal
+Local pelo
+Proprietário
+Colaborador
+Não Atendido
+Assistente Pessoal
+Impessoal
+Pessoal
+Usuário nas
+Impessoal
+Impessoal
+Pessoal
+Aplicações
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+3. Regras
+3.1. A automação de processos através da utilização de RPA, deverá prever:
+a) Processos existentes, podendo ser adaptados conforme a necessidade do negócio,
+desde que mantida observância das regras;
+b) Análise dos riscos do processo automatizado, aplicando o Checklist de Controles
+Internos;
+c) Automações devem ser cadastradas na Ferramenta Corporativa de Cadastro de Ideias e
+Inventário, definindo o propósito da automação e as informações sobre o usuário
+impessoal RPA;
+d) Criação de RPA, mediante aprovação do Diretor responsável pelo tema nas Cooperativas
+Singulares, ou cargo equivalente para as demais entidades;
+e) Todos os documentos com relevância gerados para a automação, deverão ser
+registrados na Ferramenta Corporativa de Cadastro de Ideias e Inventário. Isso inclui
+itens, como: PDD (Process Definition Document), Checklist de Controles Internos e o
+Checklist de Desenvolvimento. As documentações e informações precisam ser válidas
+pelo tempo que a automação estiver em funcionamento;
+-
+f) Utilização de usuário impessoal ou pessoal para autenticação no computador e acesso
+às aplicações deve ocorrer conforme regras estabelecidas na Norma Gestão de
+Identidades e Acessos e de acordo com o quadro item Tipos de Robôs de RPA desta
+norma;
+g) Preenchimento e armazenamento de senha observando as alternativas:
+I. Armazenar em cofre de senhas nativo da ferramenta;
+II.
+III.
+IV.
+Armazenar em cofre de senhas externo compatível com a ferramenta;
+Armazenar em campo com criptografia nativa da ferramenta, não compartilhado
+com outros usuários ou com controle de acesso;
+Quando as alternativas anteriores não forem viáveis e for um robô atendido ou
+assistente pessoal, permitir que o operador do robô informe as credenciais em
+variáveis criptografadas ou diretamente nas telas de autenticação dos sistemas;
+h) Armazenamento dos registros de eventos (logs) deve ser no período mínimo de 6 meses,
+garantindo a rastreabilidade das modificações e segurança no acesso;
+i) Manutenção de registros de eventos (logs) e/ou trilhas de rastreabilidade das ações
+executadas pela RPA, que viabilizem a identificação de erros provenientes da
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+automação. Os registros de eventos (logs) e/ou trilhas de rastreabilidade deverão
+conter informações da transação realizada (Consulta, Inclusão, Alteração, Remoção),
+data e hora de início e fim da transação, identificação da origem e destino e o usuário
+j) Deve ser observado o intervalo de tempo entre cada interação, utilizando mecanismos
+de espera de alguns milissegundos ou segundos entre uma ação e outra. O objetivo
+desta regra é evitar a sobrecarga nos sistemas.
+k) Os acessos serão concedidos somente aos sistemas informados na Ferramenta
+Corporativa de Cadastro de Ideias e Inventário, mediante a aprovação do Gestor
+Responsável do Usuário Impessoal;
+l) É obrigatório que todo usuário impessoal seja atribuído a seu respectivo Gestor
+Responsável, que pode ser de nível Coordenador, Gerente ou Diretor;
+m) Utilização de acessos aos sistemas devem estar em concordância com o propósito da
+automação, formalizado na Ferramenta Corporativa de Cadastro de Ideias e Inventários;
+n) Utilização em sistemas corporativos, softwares de propriedade do Sicredi e/ou
+fornecido por terceiros, observadas as regras contratuais. Vide lista de softwares
+autorizados no "Portal de Apoio RPA" no Microsoft Teams.
+o) O acesso à consulta dos dados nas bases de dados corporativas do Sicredi é permitido
+através da ferramenta de virtualização corporativa. Não é permitido acesso direto para
+consulta ou alterações em bases de dados corporativas;
+p) A automação de processo RPA não deve conter acessos de administrador nos
+computadores ou máquinas virtuais onde estiver sendo executado, conforme previsto
+na Norma - Segurança Cibernética;
+q) Utilização de mecanismos de autenticação e autorização de acordo com as regras de
+Gestão de Identidades e Acessos;
+r) Realização de acesso para administração do RPA, exclusivamente, através da rede
+interna ou VPN corporativa, com a utilização de equipamentos corporativos. Entende-se
+por recursos de administração, software ou hardware utilizados para gerenciar o RPA;
+s) Rastreabilidade: Deverão existir formas de visualização dos robôs e das ações que
+estejam sendo executadas por eles, de modo a viabilizar a identificação de robôs com
+processos em execução, sendo possível o rastreamento de processos em situações de
+impacto nos sistemas.
+Por exemplo:
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+I.
+II.
+Deve existir o painel de monitoramento de robôs não atendidos, onde seja possível
+visualizá-los e operá-los em operação à distância;
+Painel de monitoramento dos robôs atendidos, onde seja possível visualizar os robôs
+que estão em uso e os colaboradores proprietários destes robôs para que possam ser
+acionados em caso de necessidade;
+t) Os códigos-fonte das automações devem ser armazenados na ferramenta de
+versionamento de código corporativo, com criptografia e backup com acesso restrito ao
+ambiente corporativo. Não devem ser utilizadas ferramentas públicas para versionamento
+de código e backup;
+u) A estratégia de desenvolvimento de automação de processo não corporativos, deve
+seguir com a observância das regras desta Norma;
+v) A automação RPA não deve ser desenvolvida ou utilizada para o envio/recebimento de e-
+mails externos;
+w) Fazer o uso correto das licenças de acordo com a sua funcionalidade, conforme
+determinação do fornecedor;
+x) Utilizar soluções e/ou APIs homologadas para consulta aos dados²;
+y) Para toda automação RPA desenvolvida que envolva tratamento de dados pessoais é
+imprescindível que exista o registro das Operações de Tratamento Dados (OTD), conforme
+KB0083086;
+z) Em eventos de crise, que por suspeita, a automação RPA possa vir a materializar perdas,
+sejam elas financeiras, de imagem, legais ou operacionais, o acesso ao CAS dos sistemas
+envolvidos dessa automação, serão bloqueados.
+3.1.1. É vedada a utilização de solução corporativa de RPA e demais tecnologias e linguagens
+de programação, classificadas como não corporativas, como meio de automação de
+processos, para os seguintes itens:
+a) Automação de processos com objetivo de burlar controles de segurança, como, por
+exemplo, quebra de captcha;
+b) Automação de processos para execução de atividades que requerem avaliação
+humana criteriosa (tomada de decisão);
+2 Informações de APIs e soluções homologadas, consultar a Área de Arquitetura do CAS.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+c) Automações de processos que consistem em liberação de acessos e que necessitem
+de avaliação humana;
+3.1.2. Acesso direto aos bancos de dados de dados corporativos através de seus hosts d Formatado: Justificado
+acesso, seja para consultas ou inserções, independentemente do driver de acesso (ex.:
+JDBC/ODBC).
+3.1.3. Para automações anteriores a abril de 2024, os itens PDD, Checklist de Controles
+Internos e armazenamento dos códigos, podem ser atendidos por meio de artefatos
+equivalentes, desde que atendam os objetivos abaixo. O Checklist de Desenvolvimento
+não requer a apresentação de documentos equivalentes.
+a) Documento equivalente ao PDD: com informações suficientes dentro dos
+critérios da cooperativa, para que seja possível ao desenvolvedor criar ou dar
+manutenção na automação.
+b)-Documento equivalente ao Checklist de Controles Internos: Lista ou artefatos
+de verificação de Controles Internos a respeito de exposição a riscos do
+processo:
+e Ferramenta equivalente de versionamento de código corporativo: Ferramenta
+para armazenar os códigos das automações,
+3.2. Modelos de Governança de RPA
+3.2.1. Para automações classificadas como RPA, são previstos três modelos de governança:
+a) Modelo Sistêmico (CAS e Centrais): Definir a estratégia, políticas e normas
+corporativas de RPA que deverão ser atendidas pelo sistema Sicredi, a fim de garantir
+a governança dos RPA;
+b) Modelo Centralizado (CAS): Promover automações governadas e escaláveis, por
+meio de ferramenta corporativa, através do time de desenvolvimento e
+monitoramento centralizado;
+c) Modelo Federado (Centrais e Cooperativas): Fornecer a independência necessária
+para a atuação das Cooperativas Singulares e Centrais, no desenvolvimento de
+automações governadas e escaláveis, através do time de desenvolvimento local.
+3.3. Centro de Excelência RPA.
+3.3.1. Devem ser estabelecidos Centros de Excelência de RPA (COE), a nível Sistêmico, Central e
+CAS, observando as regras aqui dispostas para determinação da composição, atribuições,
+frequência, quórum, e registro das reuniões.
+3.3.2. Todos os nomes, endereços de rede e scripts, devem ser geridos, aprovados e
+administrados pela Confederação (executado diretamente ou por terceiro autorizado pela
+Formatado: Realce
+Formatado: Fonte parág. padrão, Fonte: Exo 2.0, Realce
+Formatado: Realce
+Formatado: Realce
+Formatado: Fonte parág. padrão, Fonte: Exo 2.0, Realce
+Formatado: Realce
+Formatado: Fonte parág. padrão, Fonte: Exo 2.0, Realce
+Formatado: Realce
+Formatado: Fonte parág. padrão, Fonte: Exo 2.0, Realce
+Formatado: Realce
+Formatado: Fonte: Exo 2.0, Realce
+Formatado: Justificado, Numerada + Nível: 1 + Estilo
+da numeração: I, II, III, ... + Iniciar em: 1+ Alinhamento:
+Direita Alinhado em: 0,63 cm + Recuar em: 1,27 cm
+Formatado: Normal, Justificado, Recuo: À esquerda:
+0,63 cm, Sem marcadores ou numeração
+Formatado: Fonte: Exo 2.0
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+mesma). O acesso não autorizado a estas informações, o roubo de dispositivos ou a tentativa
+de recuperação destas informações de forma não autorizada deve ser tratado como incidente
+de segurança e informado as áreas responsáveis com urgência. Os endereçamentos de rede
+das entidades do Sicredi devem ser disponibilizados em inventário de rede ou relatório.
+3.3.3. Atribuições do Centro de Excelência
+Os Centros de Excelência têm por objetivo assegurar a observância das regras previstas nesta
+Norma para automação de processo por meio de solução de RPA, além de assegurar a
+utilização das melhores práticas, bem como a sua divulgação e apoio as suas entidades e áreas.
+3.3.4. Composição e Reporte
+As composições e reportes dos Centros de Excelência estão estabelecidas no Quadro 1, e
+contemplam a estrutura mínima de áreas que obrigatoriamente devem estar representadas.
+Quadro 1: Centros de Excelência
+Centro de
+Excelência
+Composição
+Centro de
+Excelência
+Sistêmicos
+CAS: Representantes das áreas responsáveis por
+Processos, Segurança da Informação, Proteção e
+Privacidade de Dados, Operações de TI,
+Arquitetura Corporativa, Engenharia de Operações
+e Governança de TI e Custos e Orçamento.
+Central: Processos; Controles Internos; Área
+responsável pelo RPA.
+Centro de
+Excelência CAS
+CAS: Representantes das áreas responsáveis por
+Processos, Segurança da Informação, Proteção e
+Privacidade de Dados, Operações de TI,
+Arquitetura Corporativa, Engenharia de Operações
+e Governança de TI e Custos e Orçamento.
+Centro de
+Excelência
+Central
+Central: Processos, Área responsável pelo
+RPA e Controles Internos.
+Cooperativa: Área responsável pelo RPA
+3.3.5. Com posição e Reporte
+Classificação da informação: Uso Interno
+Frequência de
+Reuniões
+Semestral
+Bimestral
+Definido pela
+Central
+
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+As regras quanto à frequência e quórum mínimo para realização das reuniões dos Centros de
+Excelência, além daquelas estabelecidas na Tabela 1, compreendem:
+a) A reunião dos membros deve ocorrer por convocação do responsável pelo tema RPA,
+podendo este ser substituído pelo responsável pela área de processos;
+b) O quórum adequado é acima de 2/3 (dois terços) dos representantes das áreas
+membros. Para a reunião do Centro de Excelência Sistêmico, é necessária a participação
+de 2/3 (dois terços) dos representantes da área de RPA das Centrais;
+c) A convocação deve ocorrer com simultâneo encaminhamento da pauta com 10 (dez)
+dias úteis de antecedência, exceto para assunto que exija apreciação tempestiva;
+3.4. Time RPA
+3.4.1. Estrutura que realiza o desenvolvimento, manutenção e gestão das automações, com a
+seguinte distribuição mínima de áreas que devem estar representadas nas entidades:
+a) CAS: Demandante da automação RPA, Desenvolvedores de RPA e Processos;
+b) Cooperativas e Centrais: Demandante da automação RPA, Desenvolvedores RPA,
+Processos e Controles Internos.
+3.5. Sala de Controle Sistêmico
+3.5.1. Estrutura que realiza a gestão da solução corporativa centralizada de RPA, a fim de
+garantir a eficiência da operação, devendo reportar os encaminhamentos ao Centro de
+Excelência CAS. Devem compor a Sala de Controle Sistêmico o responsável pela área de
+Operações de TI do CAS.
+3.6. Célula de Automação RPA CAS
+3.6.1. Estrutura que realiza gestão do processo de automação e desenvolvimento de
+automação do seu negócio, devendo reportar os encaminhamentos ao Centro de Excelência
+CAS, devem compor a Célula de Automação RPA CAS:
+a) Responsável pela área de negócios onde há a célula de automação RPA CAS;
+b) Responsável pelo mapeamento e melhoria de processos pertinentes à sua área ou
+superintendência;
+c) Responsável pelo desenvolvimento e manutenção das automações RPA pertinentes a
+sua célula de automação.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+4. Responsabilidades
+Sicredi
+4.1. Sistema Sicredi
+4.1.1.À Célula de Automação e Time de RPA, compete:
+a) Responsabilizar-se pela tomada de decisão quanto as automações RPA desenvolvidas
+pela sua entidade frente aos benefícios e riscos locais e sistêmicos;
+b) Às cooperativas compete, definir a estratégia de desenvolvimento de automação de
+processos não corporativos, seguindo o planejamento de cada Central, com a
+observância das regras desta Norma;
+c) Responsabilizar-se pela tomada de decisão quanto as automações RPA desenvolvidas
+pela sua entidade frente aos benefícios e riscos locais e sistêmicos;
+d) Identificar, mapear e propor melhorias para os seus processos;
+e) Gerenciar relação atualizada de usuários impessoais RPA e seus respectivos acessos e
+automações;
+f) Priorizar as automações, conforme estratégia da área;
+g) Realizar o desenvolvimento e a manutenção de automações pertencentes ao seu
+escopo de negócio, visando a eficiência sistêmica;
+h) Realizar o preenchimento, a manutenção e disponibilização das documentações
+i) estabelecidas pela Governança de RPA na Ferramenta Corporativa de Cadastro de
+Ideias e Inventário de Automações;
+j) Demandar a criação, manutenção e exclusão de usuários impessoais RPA na ferramenta
+Corporativa de Cadastro de Ideias e Inventário de Automações;
+k) Avaliação do Risco Operacional do negócio com uso de automações;
+1) Às Cooperativas e Singulares, apresentar o design de solução proposto para o projeto
+de automação aos responsáveis pelos Controles Internos das respectivas entidades;
+m) Avaliar que todos os dados pessoais envolvidos nas automações estão em
+conformidade com os normativos de Proteção de Privacidade de Dados;
+n) Observar as regras internas e orientações de boas práticas estabelecidas pela
+Governança de RPA;
+o) Ao CAS, realizar passagem de conhecimento para a Sala de Controle em caso de
+descontinuidade da célula de automação;
+p) Ao CAS, realizar o alinhamento com as áreas responsáveis por Sistemas, Infraestrutura,
+Proteção e Privacidade de Dados e Controles Internos, sobre as suas automações.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+4.1.2.À área de Processos, compete:
+a) Descrever os processos, bem como suas regras de negócios e operacionalização
+dentro da metodologia de construção dos robôs estabelecida pela Governança de RPA;
+b) Orientar as áreas de negócio demandantes de automação;
+c) Identificar, mapear e propor melhorias para os seus processos;
+d) Demandar a criação, manutenção e exclusão de usuários impessoais RPA na
+ferramenta Corporativa de Cadastro de Ideias e Inventário de Automações
+e) Priorizar as automações, conforme estratégia da cooperativa;
+f) Assegurar que as atividades do processo sejam automatizadas em ordem correta;
+g) Elaborar, cadastrar e manter atualizado o documento PDD na Ferramenta Corporativa
+de Cadastro de Ideias e Inventário, definindo propósito da automação e as informações
+sobre o usuário impessoal RPA;
+h) Garantir que a automação atenda o propósito definido no formulário da Ferramenta
+Corporativa de Cadastro de Ideias e Inventário de Automações;
+i) Garantir o não desenvolvimento de automações de processos que consistem em
+liberação de acessos e/ou requerem de avaliação humana criteriosa;
+j) Garantir a devida utilização de acessos aos sistemas que devem estar em concordância
+com o propósito da automação;
+k) Garantir a guarda da documentação do processo submetido a automação
+minimamente pelo período que a automação estiver ativa;
+1) À área do CAS compete liderar a Governança de RPA como ponto de referência na
+condução, evolução e inovação do tema.
+4.1.3. Ao Desenvolvedor RPA, compete:
+a) Desenvolver respeitando os itens previstos na norma;
+b) Desenvolver automações de RPA utilizando somente sistemas, permitidos e sem
+restrições, pelo Sistema Sicredi;
+c) Realizar o desenvolvimento e manutenção de registros de eventos (logs) e/ou trilhas
+de rastreabilidade das ações executadas pela RPA, que viabilizem a identificação de
+erros provenientes da automação. Os registros de eventos (logs) e/ou trilhas de
+rastreabilidade deverão conter informações da transação realizada (consulta,
+inclusão, alteração e remoção), data e hora de início e fim da transação, identificação
+da origem e destino e o usuário;
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+d) Implementar mecanismos que limitem o número de solicitações simultâneas ao
+sistema;
+e) Garantir que a automação de processos não deve ser diferente da forma de uso que um
+humano faria sobre o sistema, desta forma deve ser observado o tempo existente entre
+cada iteração;
+f) Realizar o acesso à consulta de dados nas bases de dados do Sicredi através da
+ferramenta de virtualização corporativa. Não é permitido acesso direto para consulta
+ou alterações diretas no banco de dados corporativo;
+g) Realizar o armazenamento dos códigos fonte em ferramentas de versionamento de
+código corporativo, com criptografia e backup que acesso restrito ao ambiente
+corporativo;
+h) Garantir a não utilização de ferramentas públicas para versionamento de código e
+backup;
+i) Garantir a utilização de mecanismos de autenticação e autorização de acordo com as
+regras de Gestão de Identidades e Acessos;
+j) Realizar o desenvolvimento e testes de automação RPA em cenário controlado para
+evitar impacto em produção;
+k) Realizar as capacitações de desenvolvimento RPA dentro da plataforma corporativa de
+RPA;
+1) Realizar a gestão e manutenção dos ambientes onde são executadas as automações.
+4.1.4. Ao Gestor de área demandante da automação e ao Gestor Responsável pelo
+usuário impessoal, compete:
+a) Garantir que a utilização do usuário impessoal RPA, seja exclusivo para os fins
+definidos conforme os acessos disponibilizados;
+b) Responsabilizar-se pelas ações, diretas ou indiretas, decorrentes do uso de usuário
+impessoal, nas automações da área;
+c) Aprovar os acessos dos usuários impessoais RPA, utilizados nas automações da área;
+d) Decidir quanto as automações RPA desenvolvidas pela sua área frente aos benefícios
+e riscos sistêmicos;
+e) Ao Gestor da área demandante, garantir a existência de um processo de continuidade
+da a atividade automatizada e responsabilizar-se pela execução
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+4.2. CAS e Central
+4.2.2. A Centro de Excelência Sistêmico, compete:
+a) Planejar estrategicamente o tema RPA, frente as soluções e iniciativas corporativas do
+Sicredi;
+b) Acompanhar o nível de aderência das Cooperativas Singulares à solução corporativa de
+RPA;
+c) Avaliar e aprovar os processos sistêmicos a serem automatizados;
+d) Acompanhar a captura de benefícios dos processos automatizados;
+e) Definir e manter os processos de RPA e sua operação, a serem utilizados por
+f) todas as entidades do Sistema;
+g) Fomentar e promover encontros sistêmicos sobre o tema RPA;
+h) Promover capacitações sistêmicas sobre o tema RPA;
+i) Prover apoio as entidades sobre a adoção da governança de RPA, assegurando a
+utilização das boas práticas de mapeamento e melhoria de processos com viés de
+automação.
+4.3. CAS
+4.3.1. Ao Centro de Excelência CAS, compete:
+a) Administrar sistemicamente as ferramentas corporativas de RPA;
+b) Observar a governança de RPA e a segregação de responsabilidades, e atuar com base
+nos normativos internos referentes ao tema RPA;
+c) Avaliar os processos administrativos do CAS a serem automatizados;
+d) Acompanhar a captura de benefícios dos processos automatizados;
+e) Definir a abordagem de segurança e integração;
+f) Estabelecer padrões de análise a serem utilizados pelas entidades do Sistema, e
+executar as análises das automações sob sua competência;
+g) Mobilizar áreas para suportar o andamento dos projetos de implantação de robôs;
+h) Viabilizar o acompanhamento das automações para as entidades;
+i) Fomentar em conjunto com as cooperativas uma estrutura mínima de infraestrutura
+para suportar os RPA;
+j) Garantir que o ambiente possua conformidade com normativos de infraestrutura de TI e
+segurança.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+4.3.2. À célula responsável pelo desenvolvimento centralizado de automações RPA, na
+área de Operações de TI do CAS, compete:
+a) Realizar o desenvolvimento e manutenção de automações de processos de referência que
+atendam ao sistema Sicredi como um todo, e de processos administrativos do CAS, visando
+a eficiência sistêmica;
+b) Orientar as áreas de negócio demandantes de automação:
+I.
+Identificar, mapear e propor melhorias para os seus processos;
+II.
+Demandar a criação, manutenção e exclusão de usuários impessoais RPA;
+c) Garantir que o item relacionado ao plano de contingência esteja preenchido na ferramenta
+corporativa de Cadastros de Ideias e Inventário de Automações para casos em que ocorra a
+falha na execução.
+4.3.3. À área do CAS, responsável por Operações de TI, compete:
+a) Realizar a gestão da Sala de Controle Sistêmico;
+b) Analisar e orientar a compra de licenças para robô e ferramenta de desenvolvimento de
+automação corporativa do CAS;
+c) Implementar em produção as automações sistêmicas e administrativas do CAS;
+d) Intervir em situações que estejam gerando impacto em produção, interrompendo ou
+bloqueando a execução do robô;
+e) Prover suporte inicial para a implantação e configuração de robôs e configuração do
+ambiente de desenvolvimento integrado;
+f) Participar da construção dos ambientes técnicos dos desenvolvedores das células de
+automação do CAS;
+g) Realizar avaliação e a gestão técnica de desenvolvedores integrantes das células de
+automação do CAS;
+h) Garantir o registro dos RPAs corporativos na Ferramenta Corporativa de Cadastro de
+Ideias e Inventário de Automações.
+4.4.4. Á área do CAS, responsável por Engenharia de Operações e Governança de TI,
+compete:
+a) Administrar, em nível de infraestrutura, a aplicação homologada, integrando os serviços
+de instalação, configuração, atualização e correção de erros e/ou falhas de segurança;
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+b) Gerir os espaços de automação “Tenant” da aplicação homologada e usuários que
+possuem acesso aos mesmos nas entidades do Sicredi;
+c) Apoiar a implementação dos monitoramentos que envolvem a infraestrutura que
+suporta a aplicação homologada;
+d) Prover informações técnicas relativas ao desempenho da infraestrutura que suporta a
+aplicação homologada, possibilitando análises para otimização ou expansão do
+ambiente com base na carga de processos e usuários.
+4.4.5. À área do CAS, responsável por Segurança da Informação, compete:
+a) Realizar a criação, manutenção e exclusão de usuário impessoal;
+b) Conceder acessos para o usuário impessoal RPA, conforme informações da Ferramenta
+Corporativa de Cadastro de Ideias e Inventário de Automações;
+c) Apoiar a construção de materiais orientativos, e orientar sobre boas práticas de
+segurança da informação para RPA.
+4.4.6. À área do CAS, responsável por Arquitetura Corporativa de TI, compete:
+a) Apoiar nas decisões do Centro de Excelência Sistêmico e do Centro de Excelência CAS,
+para automação dos processos;
+b) Apoiar na definição de boas práticas e limites de uso de RPA;
+c) Apoiar na seleção de ferramentas para RPA;
+d) Prover apoio técnico ao desenvolvimento junto a Sala de Controle;
+e) Prover apoio técnico às cooperativas auxiliando nas tomadas de decisão e na definição
+de estruturas referentes ao RPA;
+f) Apoiar na utilização e seleção de soluções homologadas e/ou APIs para consulta aos
+dados.
+4.4.7. À área do CAS, responsável pelo Produto, compete:
+a) Apoiar as decisões do Centro de Excelência Sistêmico e do Centro de Excelência CAS para
+automação dos processos;
+b) Apoiar na captura de benefícios dos processos automatizados;
+c) Analisar a viabilidade de criação de novas células de automação do CAS.
+4.4.8. À área do CAS, responsável por Proteção e Privacidade de Dados, compete:
+a) Estabelecer padrões de análise utilizados pelas entidades do Sistema, além de analisar
+as automações sob sua competência.
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+4.4.9. À área do CAS, responsável por Custos e Orçamento, compete:
+a) Apoiar as decisões do Centro de Excelência Sistêmico e do Centro de Excelência CAS para
+automação dos processos;
+b) Apoiar na captura de benefícios dos processos automatizados;
+c) Analisar a viabilidade de criação de novas células de automação do CAS.
+4.5. Central
+4.5.1. Ao Centro de Excelência da Central, compete:
+a) Observar a Governança RPA e a segregação de responsabilidades, e atuar com base nos
+normativos internos referente ao tema RPA, para as Cooperativas Centrais e Singulares;
+b) Realizar acompanhamento das automações e documentações de suas entidades;
+c) Compartilhar as melhores práticas entre as Cooperativas Singulares;
+d) Apoiar e orientar as Cooperativas Singulares demandantes de automação:
+I.
+II.
+Realizar a guarda das documentações estabelecidas pela Governança de RPA;
+Identificar, mapear e implementar melhoria dos seus processos;
+III.
+Demandar a criação, manutenção e exclusão de usuários impessoais RPA;
+IV.
+Planejar a continuidade de negócio, conforme Norma de Continuidade de
+Negócios;
+e) Auxiliar no mapeamento e melhoria dos processos das cooperativas a serem
+automatizados;
+f) Responsável pela infraestrutura de RPA da Central.
+4.6. Cooperativas e Singulares
+4.6.1. Ao Diretor de Operações ou cargo equivalente, compete:
+a) Garantir que a utilização do usuário impessoal RPA seja para os fins definidos conforme
+os acessos disponibilizados;
+b) Responsabilizar-se pelas ações, diretas ou indiretas, decorrentes do uso do usuário
+impessoal RPA nas automações da entidade;
+c) Aprovar os acessos a serem concedidos ao usuário impessoal para RPA Corporativo e
+Não Corporativo;
+Classificação da informação: Uso Interno
+Título
+Norma de Gestão de Automação por RPA
+Sicredi
+d) Responsabilizar-se pela tomada de decisão quanto as automações RPA desenvolvidas
+pela sua entidade frente aos benefícios e riscos locais e sistêmicos;
+e) Garantir a manutenção do processo de continuidade de negócios, incluindo as
+automações, e responsabilizar-se pela execução.
+4.6.2. Dos profissionais de Controles Internos das Cooperativas Centrais e Singulares,
+compete:
+a) Emitir parecer e preencher Checklist de Controles Internos a respeito da exposição a
+riscos da RPA desenvolvida em sua entidade;
+b) Analisar riscos e impactos dos processos a serem automatizados, garantindo a
+conformidade e sustentabilidade do negócio e da solução desenvolvida;
+c) Assegurar, através de avaliação, que a automação possua mecanismos de
+monitoramento de suas ações, fornecendo informações para análises de aderência à
+norma de RPA.
+5. Base Regulatória
+LC n° 105/01
+Lei nº 13.709/2018 LGPD
+6. Vigência e Histórico de
+Aprovação
+DATA
+DESCRIÇÃO
+APROVADOR
+13/12/2023
+2ª versão atualização do
+documento
+CDE em 13/12/2024 na Ata nº
+099/2024.
+Classificação da informação: Uso Interno
